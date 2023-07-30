@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 1200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    letter-spacing: 5px;
+}
+
+.header i {
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    border: 3px solid #eee;
+    padding: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: hsl(207deg 12% 55%);
+}
+
+.box h1 {
+    color: #f05f75;
+}
+
+.box span {
+    width: 100px;
+    height: 1px;
+    background-color: hsl(252deg 8% 88%);
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+}
+
+.gender p {
+    padding: 0 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+}
+
+.center span {
+    align-self: center;
+    margin: 10px 0;
+}
+
+.magic {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border: 1px solid hsl(252deg 8% 88%);
+    justify-content: space-around;
+    padding: 10px
+}
+
+.rectangle p {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px dotted hsl(252deg 8% 88%);
+}
+
+.rectangle h2 {
+    color: #f05f75;
+}
